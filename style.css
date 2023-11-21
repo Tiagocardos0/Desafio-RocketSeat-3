@@ -9,16 +9,17 @@ body {
 }
 
 .page {
-  width: 1280px;
+  width: 1000px;
   margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
-
-  margin-top: 65px;
+  margin-bottom: 55px;
 }
 
 ul {
@@ -60,6 +61,7 @@ h1 {
 
 main {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   
   margin-top: 55px;
@@ -75,6 +77,8 @@ section p {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
+
+  margin: 40px 0;
 }
 
 button {
@@ -84,8 +88,8 @@ button {
 
   background: #69B99D;
   border: 0;
-  padding: 15px 32px 14px;
-  margin-top: 40px;
+  padding: 14px 32px 15px;
+  
 
   display: flex;
   justify-content: center;
